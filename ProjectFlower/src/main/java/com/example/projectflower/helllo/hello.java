@@ -1,5 +1,4 @@
-package com.example.springboot.hello;
-
+package com.example.projectflower.helllo;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -7,7 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class hello {
     @GetMapping("/test")
     public String hello() {
-        return "Hello Super Coding World";
+        return "도화다 웹사이트에 오신것을 환영합니다.";
     }
 }
-
